@@ -1,0 +1,303 @@
+@use "utils" as *;
+@use "global" as *;
+
+.untitled-page {
+  &.heroSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: var(--src) center center / 100% 100% no-repeat;
+    overflow: hidden;
+  }
+  .wrapper {
+    position: absolute;
+    top: 39px;
+    right: 9px;
+    display: flex;
+    flex-direction: column;
+    width: 73px;
+    height: 74px;
+  }
+  .innerWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 73px;
+    height: 74px;
+    min-height: 74px;
+  }
+  .logoImage {
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    width: 68px;
+    height: 68px;
+  }
+  .secondaryLogoImage {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 68px;
+    height: 68px;
+  }
+  .navigationRow {
+    position: absolute;
+    bottom: 20px;
+    left: 33px;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 10px;
+    width: 290px;
+    height: 41px;
+  }
+  .friendsColumn {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px 0px;
+    margin: 0px 0px 1px;
+    width: 47px;
+    min-width: 0px;
+  }
+  .friendsIcon {
+    position: relative;
+    width: 25px;
+    height: 24px;
+  }
+  .friendsInfo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font: 700 12px/1.25 "Montserrat", Helvetica, Arial, serif;
+    color: rgb(177, 177, 177);
+    text-align: center;
+  }
+  .homeColumn {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px 0px;
+    margin: 0px 0px 1px;
+    width: 38px;
+    min-width: 0px;
+  }
+  .homeIcon {
+    position: relative;
+    width: 28px;
+    height: 25px;
+  }
+  .homeInfo {
+    position: relative;
+    font: 700 12px/1.25 "Montserrat", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .tasksColumn {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1px 0px;
+    width: 35px;
+    min-width: 0px;
+  }
+  .tasksIcon {
+    position: relative;
+    margin: 0px 1px 0px 7px;
+    width: 27px;
+    height: 26px;
+  }
+  .tasksInfo {
+    position: relative;
+    font: 700 12px/1.16 "Montserrat", Helvetica, Arial, serif;
+    color: rgb(177, 177, 177);
+  }
+  .backgroundImage {
+    position: absolute;
+    top: 524px;
+    left: 24px;
+    display: flex;
+    flex-direction: column;
+    width: 139px;
+    height: 95px;
+    background: var(--src) center center / 100% 100% no-repeat;
+  }
+  .mainImage {
+    position: absolute;
+    bottom: 92px;
+    left: 19px;
+    width: 314px;
+    height: 73px;
+    border-radius: 5px 5px 5px 5px;
+    outline: 3px solid rgb(123, 82, 130);
+    outline-offset: -3px;
+  }
+  .decoratorTop {
+    position: absolute;
+    top: 95px;
+    right: 0px;
+    width: 171px;
+    height: 137px;
+  }
+  .secondaryBackgroundImage {
+    position: absolute;
+    top: 524px;
+    left: 194px;
+    display: flex;
+    flex-direction: column;
+    width: 139px;
+    height: 95px;
+    background: var(--src) center center / 100% 100% no-repeat;
+  }
+  .contentContainer {
+    position: absolute;
+    top: 44px;
+    left: 22px;
+    display: flex;
+    flex-direction: column;
+    width: 242px;
+    height: 69px;
+  }
+  .highlightBox {
+    position: absolute;
+    top: 6px;
+    right: 0px;
+    bottom: 0px;
+    left: 5px;
+    width: 237px;
+    height: 63px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px 5px 5px 5px;
+  }
+  .secondaryHighlightBox {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 237px;
+    height: 63px;
+    background-color: rgb(62, 64, 76);
+    border-radius: 5px 5px 5px 5px;
+  }
+  .heroTitle {
+    position: absolute;
+    top: 6px;
+    left: 45px;
+    width: 150px;
+    height: 44px;
+    font: 700 40px/1.2 "Montserrat", Helvetica, Arial, serif;
+    color: rgb(31, 33, 45);
+  }
+  .featureImage {
+    position: absolute;
+    top: 376px;
+    left: 31px;
+    width: 260px;
+    height: 177px;
+  }
+  .decoratorBottom {
+    position: absolute;
+    top: 29px;
+    left: -141px;
+    width: 370px;
+    height: 232px;
+  }
+  .statsContainer {
+    position: absolute;
+    top: 256px;
+    left: 23px;
+    display: flex;
+    flex-direction: column;
+    width: 315px;
+    height: 129px;
+  }
+  .statsBox {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    bottom: 0px;
+    left: 7px;
+    width: 308px;
+    height: 124px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px 5px 5px 5px;
+  }
+  .secondaryStatsBox {
+    position: absolute;
+    top: 0px;
+    right: 7px;
+    bottom: 10px;
+    left: 0px;
+    width: 308px;
+    height: 119px;
+    background-color: rgb(44, 14, 17);
+    border-radius: 5px 5px 5px 5px;
+  }
+  .coverImage {
+    position: absolute;
+    top: 5px;
+    right: 11px;
+    bottom: 14px;
+    left: 4px;
+    width: 300px;
+    height: 110px;
+  }
+  .collectionInfo {
+    position: absolute;
+    top: 13px;
+    right: 204px;
+    bottom: 102px;
+    left: 15px;
+    width: 96px;
+    height: 14px;
+    font: 700 12px/1.16 "Montserrat", Helvetica, Arial, serif;
+    color: rgb(169, 165, 165);
+    letter-spacing: -0.4px;
+  }
+  .collectionValue {
+    position: absolute;
+    top: 43px;
+    right: 100px;
+    bottom: 57px;
+    left: 91px;
+    width: 124px;
+    height: 29px;
+    font: 700 24px/1.2 "Montserrat", Helvetica, Arial, serif;
+    color: rgb(169, 165, 165);
+  }
+  .hourlyRateInfo {
+    position: absolute;
+    top: 14px;
+    right: 19px;
+    bottom: 101px;
+    left: 240px;
+    width: 56px;
+    height: 14px;
+    font: 700 12px/1.16 "Montserrat", Helvetica, Arial, serif;
+    color: rgb(177, 177, 177);
+  }
+  .rateHighlightBox {
+    position: absolute;
+    bottom: 18px;
+    left: 100px;
+    width: 106px;
+    height: 28px;
+    background-color: rgb(162, 180, 53);
+    border-radius: 14px 14px 14px 14px;
+    box-shadow: 3px 4px 3px 1px rgba(0, 0, 0, 0.368);
+  }
+  .claimTitle {
+    position: absolute;
+    bottom: 18px;
+    left: 121px;
+    width: 73px;
+    height: 28px;
+    font: 700 24px/1.2 "Montserrat", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .footerImage {
+    position: relative;
+    margin: 0px 0px 784px auto;
+    width: 28px;
+    height: 16px;
+  }
+}

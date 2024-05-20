@@ -1,0 +1,298 @@
+.untitled-page.heroSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/100% 100% no-repeat;
+  overflow: hidden;
+}
+.untitled-page .wrapper {
+  position: absolute;
+  top: 39px;
+  right: 9px;
+  display: flex;
+  flex-direction: column;
+  width: 73px;
+  height: 74px;
+}
+.untitled-page .innerWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 73px;
+  height: 74px;
+  min-height: 74px;
+}
+.untitled-page .logoImage {
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  width: 68px;
+  height: 68px;
+}
+.untitled-page .secondaryLogoImage {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 68px;
+  height: 68px;
+}
+.untitled-page .navigationRow {
+  position: absolute;
+  bottom: 20px;
+  left: 33px;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  width: 290px;
+  height: 41px;
+}
+.untitled-page .friendsColumn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px 0px;
+  margin: 0px 0px 1px;
+  width: 47px;
+  min-width: 0px;
+}
+.untitled-page .friendsIcon {
+  position: relative;
+  width: 25px;
+  height: 24px;
+}
+.untitled-page .friendsInfo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font: 700 12px/1.25 "Montserrat", Helvetica, Arial, serif;
+  color: #b1b1b1;
+  text-align: center;
+}
+.untitled-page .homeColumn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px 0px;
+  margin: 0px 0px 1px;
+  width: 38px;
+  min-width: 0px;
+}
+.untitled-page .homeIcon {
+  position: relative;
+  width: 28px;
+  height: 25px;
+}
+.untitled-page .homeInfo {
+  position: relative;
+  font: 700 12px/1.25 "Montserrat", Helvetica, Arial, serif;
+  color: white;
+}
+.untitled-page .tasksColumn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1px 0px;
+  width: 35px;
+  min-width: 0px;
+}
+.untitled-page .tasksIcon {
+  position: relative;
+  margin: 0px 1px 0px 7px;
+  width: 27px;
+  height: 26px;
+}
+.untitled-page .tasksInfo {
+  position: relative;
+  font: 700 12px/1.16 "Montserrat", Helvetica, Arial, serif;
+  color: #b1b1b1;
+}
+.untitled-page .backgroundImage {
+  position: absolute;
+  top: 524px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  width: 139px;
+  height: 95px;
+  background: var(--src) center center/100% 100% no-repeat;
+}
+.untitled-page .mainImage {
+  position: absolute;
+  bottom: 92px;
+  left: 19px;
+  width: 314px;
+  height: 73px;
+  border-radius: 5px 5px 5px 5px;
+  outline: 3px solid #7b5282;
+  outline-offset: -3px;
+}
+.untitled-page .decoratorTop {
+  position: absolute;
+  top: 95px;
+  right: 0px;
+  width: 171px;
+  height: 137px;
+}
+.untitled-page .secondaryBackgroundImage {
+  position: absolute;
+  top: 524px;
+  left: 194px;
+  display: flex;
+  flex-direction: column;
+  width: 139px;
+  height: 95px;
+  background: var(--src) center center/100% 100% no-repeat;
+}
+.untitled-page .contentContainer {
+  position: absolute;
+  top: 44px;
+  left: 22px;
+  display: flex;
+  flex-direction: column;
+  width: 242px;
+  height: 69px;
+}
+.untitled-page .highlightBox {
+  position: absolute;
+  top: 6px;
+  right: 0px;
+  bottom: 0px;
+  left: 5px;
+  width: 237px;
+  height: 63px;
+  background-color: black;
+  border-radius: 5px 5px 5px 5px;
+}
+.untitled-page .secondaryHighlightBox {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 237px;
+  height: 63px;
+  background-color: #3e404c;
+  border-radius: 5px 5px 5px 5px;
+}
+.untitled-page .heroTitle {
+  position: absolute;
+  top: 6px;
+  left: 45px;
+  width: 150px;
+  height: 44px;
+  font: 700 40px/1.2 "Montserrat", Helvetica, Arial, serif;
+  color: #1f212d;
+}
+.untitled-page .featureImage {
+  position: absolute;
+  top: 376px;
+  left: 31px;
+  width: 260px;
+  height: 177px;
+}
+.untitled-page .decoratorBottom {
+  position: absolute;
+  top: 29px;
+  left: -141px;
+  width: 370px;
+  height: 232px;
+}
+.untitled-page .statsContainer {
+  position: absolute;
+  top: 256px;
+  left: 23px;
+  display: flex;
+  flex-direction: column;
+  width: 315px;
+  height: 129px;
+}
+.untitled-page .statsBox {
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  bottom: 0px;
+  left: 7px;
+  width: 308px;
+  height: 124px;
+  background-color: black;
+  border-radius: 5px 5px 5px 5px;
+}
+.untitled-page .secondaryStatsBox {
+  position: absolute;
+  top: 0px;
+  right: 7px;
+  bottom: 10px;
+  left: 0px;
+  width: 308px;
+  height: 119px;
+  background-color: #2c0e11;
+  border-radius: 5px 5px 5px 5px;
+}
+.untitled-page .coverImage {
+  position: absolute;
+  top: 5px;
+  right: 11px;
+  bottom: 14px;
+  left: 4px;
+  width: 300px;
+  height: 110px;
+}
+.untitled-page .collectionInfo {
+  position: absolute;
+  top: 13px;
+  right: 204px;
+  bottom: 102px;
+  left: 15px;
+  width: 96px;
+  height: 14px;
+  font: 700 12px/1.16 "Montserrat", Helvetica, Arial, serif;
+  color: #a9a5a5;
+  letter-spacing: -0.4px;
+}
+.untitled-page .collectionValue {
+  position: absolute;
+  top: 43px;
+  right: 100px;
+  bottom: 57px;
+  left: 91px;
+  width: 124px;
+  height: 29px;
+  font: 700 24px/1.2 "Montserrat", Helvetica, Arial, serif;
+  color: #a9a5a5;
+}
+.untitled-page .hourlyRateInfo {
+  position: absolute;
+  top: 14px;
+  right: 19px;
+  bottom: 101px;
+  left: 240px;
+  width: 56px;
+  height: 14px;
+  font: 700 12px/1.16 "Montserrat", Helvetica, Arial, serif;
+  color: #b1b1b1;
+}
+.untitled-page .rateHighlightBox {
+  position: absolute;
+  bottom: 18px;
+  left: 100px;
+  width: 106px;
+  height: 28px;
+  background-color: #a2b435;
+  border-radius: 14px 14px 14px 14px;
+  box-shadow: 3px 4px 3px 1px rgba(0, 0, 0, 0.368);
+}
+.untitled-page .claimTitle {
+  position: absolute;
+  bottom: 18px;
+  left: 121px;
+  width: 73px;
+  height: 28px;
+  font: 700 24px/1.2 "Montserrat", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .footerImage {
+  position: relative;
+  margin: 0px 0px 784px auto;
+  width: 28px;
+  height: 16px;
+}
